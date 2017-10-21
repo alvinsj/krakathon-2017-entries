@@ -4,4 +4,4 @@ function petitTrue3(a, b) {
   return a === b && 1 / a < 1 / b;
 }
 
-console.log(petitTrue3(0.1, 0.1));
+console.log(petitTrue3(0., 0.1));
