@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876A38721F9B744E00C22E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A38711F9B744E00C22E27 /* AppDelegate.swift */; };
+		876A38741F9B744E00C22E27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A38731F9B744E00C22E27 /* ViewController.swift */; };
+		876A38771F9B744E00C22E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876A38751F9B744E00C22E27 /* Main.storyboard */; };
+		876A387A1F9B744E00C22E27 /* OracleSky.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 876A38781F9B744E00C22E27 /* OracleSky.xcdatamodeld */; };
+		876A387C1F9B744E00C22E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876A387B1F9B744E00C22E27 /* Assets.xcassets */; };
+		876A387F1F9B744E00C22E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876A387D1F9B744E00C22E27 /* LaunchScreen.storyboard */; };
+		876A388A1F9B744F00C22E27 /* OracleSkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A38891F9B744F00C22E27 /* OracleSkyTests.swift */; };
+		876A38951F9B744F00C22E27 /* OracleSkyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A38941F9B744F00C22E27 /* OracleSkyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		876A38861F9B744F00C22E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876A38661F9B744E00C22E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876A386D1F9B744E00C22E27;
+			remoteInfo = OracleSky;
+		};
+		876A38911F9B744F00C22E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876A38661F9B744E00C22E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876A386D1F9B744E00C22E27;
+			remoteInfo = OracleSky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		876A386E1F9B744E00C22E27 /* OracleSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OracleSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		876A38711F9B744E00C22E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		876A38731F9B744E00C22E27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		876A38761F9B744E00C22E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		876A38791F9B744E00C22E27 /* OracleSky.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OracleSky.xcdatamodel; sourceTree = "<group>"; };
+		876A387B1F9B744E00C22E27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		876A387E1F9B744E00C22E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		876A38801F9B744E00C22E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876A38851F9B744F00C22E27 /* OracleSkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OracleSkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		876A38891F9B744F00C22E27 /* OracleSkyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OracleSkyTests.swift; sourceTree = "<group>"; };
+		876A388B1F9B744F00C22E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876A38901F9B744F00C22E27 /* OracleSkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OracleSkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		876A38941F9B744F00C22E27 /* OracleSkyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OracleSkyUITests.swift; sourceTree = "<group>"; };
+		876A38961F9B744F00C22E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876A386B1F9B744E00C22E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876A38821F9B744F00C22E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876A388D1F9B744F00C22E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		876A38651F9B744E00C22E27 = {
+			isa = PBXGroup;
+			children = (
+				876A38701F9B744E00C22E27 /* OracleSky */,
+				876A38881F9B744F00C22E27 /* OracleSkyTests */,
+				876A38931F9B744F00C22E27 /* OracleSkyUITests */,
+				876A386F1F9B744E00C22E27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		876A386F1F9B744E00C22E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				876A386E1F9B744E00C22E27 /* OracleSky.app */,
+				876A38851F9B744F00C22E27 /* OracleSkyTests.xctest */,
+				876A38901F9B744F00C22E27 /* OracleSkyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876A38701F9B744E00C22E27 /* OracleSky */ = {
+			isa = PBXGroup;
+			children = (
+				876A38711F9B744E00C22E27 /* AppDelegate.swift */,
+				876A38731F9B744E00C22E27 /* ViewController.swift */,
+				876A38751F9B744E00C22E27 /* Main.storyboard */,
+				876A387B1F9B744E00C22E27 /* Assets.xcassets */,
+				876A387D1F9B744E00C22E27 /* LaunchScreen.storyboard */,
+				876A38801F9B744E00C22E27 /* Info.plist */,
+				876A38781F9B744E00C22E27 /* OracleSky.xcdatamodeld */,
+			);
+			path = OracleSky;
+			sourceTree = "<group>";
+		};
+		876A38881F9B744F00C22E27 /* OracleSkyTests */ = {
+			isa = PBXGroup;
+			children = (
+				876A38891F9B744F00C22E27 /* OracleSkyTests.swift */,
+				876A388B1F9B744F00C22E27 /* Info.plist */,
+			);
+			path = OracleSkyTests;
+			sourceTree = "<group>";
+		};
+		876A38931F9B744F00C22E27 /* OracleSkyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				876A38941F9B744F00C22E27 /* OracleSkyUITests.swift */,
+				876A38961F9B744F00C22E27 /* Info.plist */,
+			);
+			path = OracleSkyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		876A386D1F9B744E00C22E27 /* OracleSky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876A38991F9B744F00C22E27 /* Build configuration list for PBXNativeTarget "OracleSky" */;
+			buildPhases = (
+				876A386A1F9B744E00C22E27 /* Sources */,
+				876A386B1F9B744E00C22E27 /* Frameworks */,
+				876A386C1F9B744E00C22E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OracleSky;
+			productName = OracleSky;
+			productReference = 876A386E1F9B744E00C22E27 /* OracleSky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		876A38841F9B744F00C22E27 /* OracleSkyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876A389C1F9B744F00C22E27 /* Build configuration list for PBXNativeTarget "OracleSkyTests" */;
+			buildPhases = (
+				876A38811F9B744F00C22E27 /* Sources */,
+				876A38821F9B744F00C22E27 /* Frameworks */,
+				876A38831F9B744F00C22E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876A38871F9B744F00C22E27 /* PBXTargetDependency */,
+			);
+			name = OracleSkyTests;
+			productName = OracleSkyTests;
+			productReference = 876A38851F9B744F00C22E27 /* OracleSkyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		876A388F1F9B744F00C22E27 /* OracleSkyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876A389F1F9B744F00C22E27 /* Build configuration list for PBXNativeTarget "OracleSkyUITests" */;
+			buildPhases = (
+				876A388C1F9B744F00C22E27 /* Sources */,
+				876A388D1F9B744F00C22E27 /* Frameworks */,
+				876A388E1F9B744F00C22E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876A38921F9B744F00C22E27 /* PBXTargetDependency */,
+			);
+			name = OracleSkyUITests;
+			productName = OracleSkyUITests;
+			productReference = 876A38901F9B744F00C22E27 /* OracleSkyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876A38661F9B744E00C22E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = alvinsj.net;
+				TargetAttributes = {
+					876A386D1F9B744E00C22E27 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					876A38841F9B744F00C22E27 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 876A386D1F9B744E00C22E27;
+					};
+					876A388F1F9B744F00C22E27 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 876A386D1F9B744E00C22E27;
+					};
+				};
+			};
+			buildConfigurationList = 876A38691F9B744E00C22E27 /* Build configuration list for PBXProject "OracleSky" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 876A38651F9B744E00C22E27;
+			productRefGroup = 876A386F1F9B744E00C22E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				876A386D1F9B744E00C22E27 /* OracleSky */,
+				876A38841F9B744F00C22E27 /* OracleSkyTests */,
+				876A388F1F9B744F00C22E27 /* OracleSkyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		876A386C1F9B744E00C22E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876A387F1F9B744E00C22E27 /* LaunchScreen.storyboard in Resources */,
+				876A387C1F9B744E00C22E27 /* Assets.xcassets in Resources */,
+				876A38771F9B744E00C22E27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876A38831F9B744F00C22E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876A388E1F9B744F00C22E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		876A386A1F9B744E00C22E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876A387A1F9B744E00C22E27 /* OracleSky.xcdatamodeld in Sources */,
+				876A38741F9B744E00C22E27 /* ViewController.swift in Sources */,
+				876A38721F9B744E00C22E27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876A38811F9B744F00C22E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876A388A1F9B744F00C22E27 /* OracleSkyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876A388C1F9B744F00C22E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876A38951F9B744F00C22E27 /* OracleSkyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		876A38871F9B744F00C22E27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876A386D1F9B744E00C22E27 /* OracleSky */;
+			targetProxy = 876A38861F9B744F00C22E27 /* PBXContainerItemProxy */;
+		};
+		876A38921F9B744F00C22E27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876A386D1F9B744E00C22E27 /* OracleSky */;
+			targetProxy = 876A38911F9B744F00C22E27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		876A38751F9B744E00C22E27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876A38761F9B744E00C22E27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		876A387D1F9B744E00C22E27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876A387E1F9B744E00C22E27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876A38971F9B744F00C22E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		876A38981F9B744F00C22E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		876A389A1F9B744F00C22E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4PM4K42B9;
+				INFOPLIST_FILE = OracleSky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.alvinsj.OracleSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		876A389B1F9B744F00C22E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4PM4K42B9;
+				INFOPLIST_FILE = OracleSky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.alvinsj.OracleSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		876A389D1F9B744F00C22E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4PM4K42B9;
+				INFOPLIST_FILE = OracleSkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.alvinsj.OracleSkyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OracleSky.app/OracleSky";
+			};
+			name = Debug;
+		};
+		876A389E1F9B744F00C22E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4PM4K42B9;
+				INFOPLIST_FILE = OracleSkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.alvinsj.OracleSkyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OracleSky.app/OracleSky";
+			};
+			name = Release;
+		};
+		876A38A01F9B744F00C22E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4PM4K42B9;
+				INFOPLIST_FILE = OracleSkyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.alvinsj.OracleSkyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OracleSky;
+			};
+			name = Debug;
+		};
+		876A38A11F9B744F00C22E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4PM4K42B9;
+				INFOPLIST_FILE = OracleSkyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.alvinsj.OracleSkyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OracleSky;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876A38691F9B744E00C22E27 /* Build configuration list for PBXProject "OracleSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876A38971F9B744F00C22E27 /* Debug */,
+				876A38981F9B744F00C22E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876A38991F9B744F00C22E27 /* Build configuration list for PBXNativeTarget "OracleSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876A389A1F9B744F00C22E27 /* Debug */,
+				876A389B1F9B744F00C22E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876A389C1F9B744F00C22E27 /* Build configuration list for PBXNativeTarget "OracleSkyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876A389D1F9B744F00C22E27 /* Debug */,
+				876A389E1F9B744F00C22E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876A389F1F9B744F00C22E27 /* Build configuration list for PBXNativeTarget "OracleSkyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876A38A01F9B744F00C22E27 /* Debug */,
+				876A38A11F9B744F00C22E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		876A38781F9B744E00C22E27 /* OracleSky.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				876A38791F9B744E00C22E27 /* OracleSky.xcdatamodel */,
+			);
+			currentVersion = 876A38791F9B744E00C22E27 /* OracleSky.xcdatamodel */;
+			path = OracleSky.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 876A38661F9B744E00C22E27 /* Project object */;
+}
