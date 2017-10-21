@@ -1,6 +1,6 @@
+// exo 1 - 25 points
 // En 2 caracteres max
-function petitTrue( a ){
-    return a;
+function petitTrue(a) {
+  return a;
 }
-console.log( petitTrue( !0 ) );
-
+console.log(petitTrue(!0));
