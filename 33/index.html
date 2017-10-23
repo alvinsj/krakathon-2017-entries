@@ -1,0 +1,92 @@
+<html>
+<head>
+<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+
+</head>
+<body>
+<script>
+if (annyang) {
+  // Let's define our first command. First the text we expect, and then the function it should call
+
+
+  var map = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8]
+  ];
+  const directions = ['N', 'E', 'S', 'W']; //clockwise
+  var direction = 'N';
+  var position = 4;
+
+  const forward = () => {
+    console.log('forward')
+    if(direction === 'N') {
+      position = (position - 3) < 0 ? positon : position -3;
+    }else if(direction === 'S') {
+      position = (position + 3) > 8 ? position : position +3;
+    }else if(direction === 'W') {
+      position = (position === 0) || (position === 3) || (position === 6) ? position : position -1;
+    }else if(direction === 'E') {
+      position = (position === 2) || (position === 5) || (position === 8) ? position : position +1;
+    }
+  }
+
+  const turnLeft = () => {
+    console.log('left')
+    switch(direction){
+      case 'N': direction = 'W';break;
+      case 'S': direction = 'E';break;
+      case 'W': direction = 'S';break;
+      case 'E': direction = 'N';break;
+    }
+  }
+
+  const turnRight = () => {
+    console.log('right')
+    switch(direction){
+      case 'N': direction = 'E';break;
+      case 'S': direction = 'W';break;
+      case 'W': direction = 'N';break;
+      case 'E': direction = 'S';break;
+    }
+  }
+
+  const renderBoat = (direction) => {
+    switch(direction){
+      case 'N': return '^';break;
+      case 'S': return 'v';break;
+      case 'W': return '<';break;
+      case 'E': return '>';break;
+    }
+  }
+
+  const render = (action) => ()=>{
+      if(action) action();
+      var html = '';
+      map.forEach(row => {
+        row.forEach(col => {
+          if(col === position)
+            html += renderBoat(direction);
+          else html += '_';
+        });
+        html += '<br/>';
+      })
+      document.body.innerHTML = html;
+  }
+
+  var commands = {
+    'forward': render(forward),
+    'right': render(turnRight),
+    'left': render(turnLeft)
+  };
+  // Add our commands to annyang
+  annyang.addCommands(commands);
+
+  // Start listening. You can call this here, or attach this call to an event, button, etc.
+  annyang.start({continuous: true});
+  annyang.debug(true)
+  render()()
+}
+</script>
+</body>
+</html>
